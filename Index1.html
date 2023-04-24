@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Coolmuinga Farm </title> 
+<body>
+<style>
+
+		body {background-color: #d5f4e6;}
+		
+		nav {
+			list-style-type: none;
+			margin: ;
+			padding: .50em;
+			overflow: hidden;
+			background-color: #006600;
+		}
+		
+		.nav1 {
+			float: left;
+			display: block;
+			text-align: center;
+			padding: .50em 2em;
+		}
+		
+		nav li a {
+			text-decoration: none;
+			color: white;
+		}
+		
+		header img { 
+			width: 100%;
+			height: 600px;
+		 }
+		  
+		.Text {
+			text-align: center;
+			font-size: 30px;
+			}
+		
+		.FarmHouse img {
+			padding: 5px;
+			width: 650px;
+			height: 400px;
+			}
+			
+		/* Media query for desktops (min-width: 992px) */
+			@media (min-width: 992px) {
+		.grid-container {
+			grid-template-columns: repeat(12,8.3%);
+			width: 70%;
+		}
+		
+		img {
+			display: inline;
+			}
+			
+		.FarmHouse  {
+			display: flex;
+			align-items: center;
+		}
+
+		.FarmHouse img {
+			display: inline-block;
+			width: 50%;
+			margin-right: 20px;
+			order: 1;
+		}
+
+		.FarmHouse p {
+			display: inline-block;
+			width: 50%;
+			font-size: 25px;
+			order: 2;
+		}
+
+		.CowsinShed img {
+			padding: 5px;
+			width: 650px;
+			height: 400px;
+		}
+
+		.CowsinShed  {
+			display: flex;
+			align-items: center;
+		}
+
+		.CowsinShed img {
+			display: inline-block;
+			width: 50%;
+			margin-left: 20px;
+			order: 2;
+		}
+
+		.CowsinShed p {
+			display: inline-block;
+			width: 50%;
+			font-size: 25px;
+			order: 1;
+		}
+		
+		.footer {
+		background-color: #cccccc;
+		padding: 30px;
+		text-align: left;
+		
+		}
+		.footer img {
+			display: block;
+			margin-left: 15px;
+			max-width: 100%;
+			height: auto;
+		}
+	
+			
+</style>
+
+</head>
+
+<body>
+
+	<header>
+	<nav>
+		<ul>
+			<li class="nav1"><a href="Index1.html">Home</a></li>
+			<li class="nav1"><a href="Information.html">Information</a></li>
+			<li class="nav1"><a href="PhotoGallery.html">Photo Gallery</a></li>
+			<li class="nav1"><a href="Contact.html">Contact Page</a></li>
+			<li class="nav1"><a href="UsefulLinks.html">Links</a></li>
+		</ul>
+	</nav>
+		<img src="Images/Opening.jpeg" alt="Opening Image">
+	</header>
+		
+		<div class="Text">
+			<h1> Coolmuinga Farm </h1>
+		</div>
+		
+		<div class="FarmHouse">
+			<img src="Images/FarmHouse.jpeg" alt="Farm House">
+			<p>
+				This is the Bonfield farm house located on Coolmuinga Farm in county Clare 
+				Knockerra. The Bonfield's first bought this farm over 100 years ago and began
+				with dairy farming mainly, in the last decade the have switched to beef farming 
+				as it suits the land and current workers on the farm better. 
+			</p>
+		</div>
+		
+		<div class="CowsinShed">
+			<img src="Images/CowsinShed.jpeg" alt="Cattle">
+			<p>
+				The cows on the farm are Charolais crossed with Limousins, the Bonfields have picked 
+				these as through the years this mix has lead to the most profitable calves to sell in 
+				the local mart in Ennis. Another major factor is they tend to be easier calvers and lead 
+				to less fatalities which help in making profit and also make the  farmers life less stressful.
+			</p>
+		</div>
+		
+	<footer class="footer">
+	<b>Contact us:</b>
+		<ul>
+			<li>Name: Mark Bonfield</li>
+			<li>Phone number: 086-343-2442</li>
+			<li>Email: <a href="Coolmuingagmail">Coolmuinga@gmail.com</a></li>
+			<a href="Contact.html"><img src="Images/ContactUs.jpeg" </a>
+		</ul>
+	</footer>
+</body>
+</html>

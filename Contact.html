@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tables</title>
+	<style>
+		td, th { border: 1px solid #CCC;}
+		table {border: 1px solid black;}
+		
+		body {background-color: #d5f4e6;}
+		
+		nav {
+			list-style-type: none;
+			margin: 0;
+			padding: .05em;
+			overflow: hidden;
+			background-color: #006600 ;
+		}
+		
+		.nav1 {
+			float: left;
+			display: block;
+			text-align: center;
+			padding: 1em 2em;
+		}
+		
+		nav li a {
+			text-decoration: none;
+			color: white;
+		}
+		
+		.Contact {
+			text-align: center;
+		}
+		
+		.Contact ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+
+		.Contact label {
+		display: inline-block;
+		width: 150px;
+		text-align: right;
+		margin-right: 10px;
+		}
+
+		.Contact input[type="text"],
+		.Contact input[type="email"],
+		.Contact input[type="tel"],
+		.Contact textarea {
+		display: inline-block;
+		width: 250px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+		}
+
+		.Contact textarea {
+		vertical-align: top;
+		height: 100px;
+		resize: vertical;
+		}
+
+		.Contact p {
+		margin: 10px 0;
+		}
+
+	</style>
+</head>
+<body>
+
+	<header>
+	<nav>
+		<ul>
+			<li class="nav1"><a href="Index1.html">Home</a></li>
+			<li class="nav1"><a href="Information.html">Information</a></li>
+			<li class="nav1"><a href="PhotoGallery.html">Photo Gallery</a></li>
+			<li class="nav1"><a href="Contact.html">Contact Page</a></li>
+			<li class="nav1"><a href="UsefulLinks.html">Links</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<div class="Contact">
+	<fieldset>
+
+			<legend>
+				Contact Us 
+			</legend>
+			<ul>
+				  <li>
+					<label for="form-name">Name:</label>
+					<input type="text" name="customername" id="form-name" size="23">
+				  </li>
+				  <li>
+					<label for="form-instructions">Address:</label>
+					<textarea name="instructions" rows="5" cols="60" id="form-instructions"></textarea>
+				  </li>
+				  <li>
+					<label for="form-telephone">Telephone Number:</label>
+					<input type="tel" name="telephone" id="form-telephone" size="23">
+				  </li>
+				  <li>
+					<label for="form-Email">Email:</label>
+					<input type="email" name="emailaddress" id="form-Email" size="23">
+				  </li>
+				  <li>
+					<label for="form-Email2">Retype your Email:</label>
+					<input type="email" name="emailaddress2" id="form-Email2" size="23">
+				  </li>
+				  <li>
+					<label for="form-instructions">Comment you would like to add:</label>
+					<textarea name="instructions" rows="5" cols="60" id="form-instructions"></textarea>
+				  </li>
+				  <p>
+					Are you a member:
+					<label> <input type="radio" name="Member" value="Yes" checked="checked"> Yes </label>
+					<label> <input type="radio" name="Member" value="No"> No </label> 
+				</p>
+				  <li>
+					<input type="submit" value="Submit">
+				  </li>
+			</ul>
+		</fieldset>
+	</div>
+</body>
+</html>
